@@ -69,7 +69,7 @@ function draw() {
 function drawVibrantPattern(amplitude, frequency) {
   beginShape();
   // Draw a line extending outwards from center
-  for (let r = 0; r < width/2 * 0.8; r += 5) {
+  for (let r = 0; r < width/2 * 0.7; r += 5) {
     //  math that makes the line wavy instead of straight.
     // It's a Sine wave, wrapped radially.
     let angleOffset = sin(r * 0.01 * frequency - frameCount * 0.05);
